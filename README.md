@@ -30,13 +30,11 @@ Bem-vindo! Hoje você vai fazer na prática o fluxo que times de desenvolvimento
 
 ## Check-in
 
-Comente na [issue de Check-in](../../issues/1) com o seu usuário e o seu nome:
+Comente na [issue de Check-in](../../issues/1) com o seu nome completo:
 
 ```text
-@seu-usuario — Seu Nome
+Seu Nome
 ```
-
-Se o usuário estiver correto, ao publicar o comentário o `@seu-usuario` vira um **link azul** para o seu perfil.
 
 ---
 
@@ -50,7 +48,25 @@ Se o usuário estiver correto, ao publicar o comentário o `@seu-usuario` vira u
    - **.gitignore template:** `Node`
    - **License:** `MIT License`
 3. Clique em **Create repository**.
-4. Abra o `README.md`, clique no **lápis** e escreva: seu nome, o objetivo do projeto e uma lista de tecnologias que você conhece.
+4. Abra o `README.md`, clique no **lápis** e substitua o conteúdo por uma descrição do projeto (troque `Seu Nome` pelo seu nome):
+
+   ```markdown
+   # oficina-github
+
+   Site pessoal criado na Oficina de GitHub da Semana de Informática DCOM 2026.
+
+   ## Sobre o projeto
+   Página de apresentação publicada com o GitHub Pages.
+
+   ## Tecnologias
+   - HTML
+   - CSS
+
+   ## Autor
+   Seu Nome
+   ```
+
+   > 💡 O README é o **cartão de visitas do projeto**: diz o que ele é, com o que foi feito e quem o fez.
 5. Clique em **Commit changes**, escreva a mensagem abaixo e confirme (commit direto na `main` só desta vez):
 
    ```text
